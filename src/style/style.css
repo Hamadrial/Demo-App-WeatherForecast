@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.weather-app {
+  height: auto;
+  min-height: 100rem;
+  background: url('../img/sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-title {
+  margin: 0;
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 32px;
+}
+
+.search-bar {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.search-bar__input {
+  width: 100%;
+  padding-left: 1rem;
+  outline: none;
+  border: none;
+}
+
+.search-bar__input:focus {
+  outline: none;
+}
+
+.search-result .search-result__cityName {
+  vertical-align: middle;
+}
+
+.btn-secondary:focus,
+.btn-secondary:active:focus {
+  outline: none;
+  border: none;
+}
+
+#map {
+  height: 120px;
+  width: 180px;
+}
